@@ -37,7 +37,7 @@ function Input(props) {
     return(
         <div className="input-wrapper">
             <StyledLabel>{props.labelName}</StyledLabel>
-            <StyledInput margin={props.margin} padding={props.padding} type={props.type} className='custom-input' placeholder={props.placeholder}></StyledInput>
+            <StyledInput margin={props.margin} onChange={props.onChange} padding={props.padding} type={props.type} className='custom-input' placeholder={props.placeholder}></StyledInput>
         </div>
     )
 }

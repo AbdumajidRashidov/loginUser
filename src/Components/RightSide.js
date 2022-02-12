@@ -1,8 +1,4 @@
-import React from 'react';
 import styled from "styled-components";
-import Signin from '../Pages/signin';
-import Signup from '../Pages/signup';
-
 const StyledRightSide  = styled.div`
     display: flex;
     align-items:center;
@@ -13,13 +9,4 @@ const StyledRightSide  = styled.div`
     width: 50%;
     margin:2% 2% 2% 0;
 `;
-
-function RightSide(props) {
-    let isTrue = true;
-    return(
-        <StyledRightSide>
-            {isTrue ? <Signin></Signin>:<Signup></Signup>}
-        </StyledRightSide>
-    )
-}
-export default RightSide
+export default StyledRightSide

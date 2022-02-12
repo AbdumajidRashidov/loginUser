@@ -1,19 +1,25 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import 'normalize.css';
 import './Styles/styles.css'
-import RightSide from "./Components/RightSide";
-import LeftSide from "./Components/LeftSide";
 
-
+import Profile from "./Pages/profile";
+import NoPage from "./Pages/404";
+import Signin from "./Pages/signin";
+import Signup from './Pages/signup';
 function App() {
-  let isTrue = false;
-  let textLeftSide = "sign In";
-  let textRightSide ="Registration form"
+  
   return (
-    <div className="main-container">
-      <LeftSide text={ isTrue ? textLeftSide : textRightSide}></LeftSide>
-      <RightSide></RightSide>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Profile/>}>
+        <Route path="*" element={<NoPage/>}/>
+      </Route>
+      <Route path="/signin" element={<Signin/>}></Route>
+      <Route path="/signup" element={<Signup/>}></Route>
+
+    </Routes>
+  </BrowserRouter>
   );
 }
 

@@ -5,6 +5,11 @@
     margin:0 auto;
 
 }
+.container{
+    max-width: 1920px;
+    width: 80%;
+    margin: 0 auto;
+}
 .main-container{
     background-color: #2C473E;
     max-width: 1920px;
@@ -46,8 +51,93 @@
     justify-content: space-between;
 }
 .eyeIcon{
-    position: absolute;
-    top: 53.2%;
-    left: 86%;
+    position: relative;
+    bottom: 61px;
+    left: 45%;
     cursor: pointer;
+}
+.eyeIconSignUp{
+    position: relative;
+    left: 45%;
+    bottom: 40px;
+    cursor: pointer;
+}
+.signUpLink{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.9144px;
+    line-height: 21px;
+    text-align: center;
+    color: #5F6377;
+    text-decoration: none;
+}
+.signUpLink:hover{
+    text-decoration: underline;
+}
+.navbar{
+    height: 100px;
+    background-color:#FFFFFF;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.navbar__logo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #193325;
+    text-decoration: none;
+}
+.menu__list{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    list-style: none;
+}
+.menu__list_item{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #193325;
+}
+.menu__list_item_link{
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #193325;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    margin-bottom: 100px;
+}
+.ava{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.camera{
+    position: relative;
+    left: 120px;
+    bottom: 35px;
+    cursor: pointer;
+}
+.inputCamera{
+    display: none;
+}
+.profile-data{
+    display: flex
+    ;
 }

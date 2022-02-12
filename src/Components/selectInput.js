@@ -42,9 +42,9 @@ function SelectInput(props) {
             <StyledLabel>{props.labelName}</StyledLabel>
             <StyledSelectInput margin={props.margin} padding={props.padding} className='custom-input' placeholder={props.placeholder}>
                 <StyledOption disabled selected>Faculty</StyledOption>
-                <StyledOption>Faculty1</StyledOption>
-                <StyledOption>Faculty1</StyledOption>
-                <StyledOption>Faculty1</StyledOption>
+                <StyledOption value={props.value}>Faculty1</StyledOption>
+                <StyledOption value={props.value}>Faculty1</StyledOption>
+                <StyledOption value={props.value}>Faculty1</StyledOption>
             </StyledSelectInput>
         </div>
     )
