@@ -1,10 +1,5 @@
-# Raqamlashtirish Markazining test uchun texnik vazifasi
 
-React.jsda tayyorlangan starter kodni davom ettiring!
-Vazifaning ko'rinishi : [Figma URL](https://www.figma.com/file/wnSCfujqMERmNfvkEZQQKp/Untitled?node-id=0%3A1)
 API ning asosiy URLi: `http://92.63.206.40:1122/api`
-
-❗❗❗ Ishni boshlashdan oldin ushbu repozitoriyani o'zingizga fork qilib oling. 
 
 ## API manzillari
 
@@ -168,27 +163,6 @@ Response:
 
 React.jsda tayyorlangan starter kodni yuklab olib davom ettiring!
 
-O'rnatib olish - `yarn install`
+O'rnatib olish - `npm install`
 
-Ishga tushirish - `yarn start`
-
-# Login front
-
-1.[Figma](https://www.figma.com/file/wnSCfujqMERmNfvkEZQQKp/Untitled?node-id=0%3A1)dagi `sign up` sahifasini ishlab chiqish va API bilan bog'lash
-
-# Signin front
-
-1.[Figma](https://www.figma.com/file/wnSCfujqMERmNfvkEZQQKp/Untitled?node-id=0%3A1)dagi `sign in` sahifasini ishlab chiqish va API bilan bog'lash
-
-# Profile front
-
-1.[Figma](https://www.figma.com/file/wnSCfujqMERmNfvkEZQQKp/Untitled?node-id=0%3A1)dagi `profile` sahifasini ishlab chiqish va API bilan bog'lash
-
-## ❗❗❗Sahifalarni ishlab chiqish jarayonida kamida `styled-components`, `redux`, , `axios`, `hooks` va `react-router-dom v6` foydalanish talab qilinadi!
-
-Asosiy packetlar o'rnatilgan.
-
-
-# Vazifani topshirish
-
-## Vazifani [GOOGLE FORM](https://docs.google.com/forms/d/13WgOHYSHk4W29upWRzjrLslnBumKlICNXJ5wDXFuxYA/edit?usp=sharing) ga yuklang
+Ishga tushirish - `npm start`
